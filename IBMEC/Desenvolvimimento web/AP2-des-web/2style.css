@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body {
+    background-color: #002b5c;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+}
+
+#btn_sair {
+    background-color: #002b5c;
+    color: white;
+    position: fixed; 
+    right:40px; 
+    border: 2px solid white; 
+    border-radius: 5px; 
+    }
+
+#btn_sair:hover {
+    background-color: #051f3b;
+}
+
+input[type="text"] {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 100%; 
+    max-width: 400px; 
+}
+
+button {
+    background-color: #ffde00;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 10px 20px; 
+    margin: 0 10px; 
+    color: #002b5c;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #827c00;
+}
+
+#pesquisa{
+    display: block;
+    margin: 30px auto; 
+    width: 400px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+#negado{
+    color: red;
+    display: block;
+    margin: 350px auto;
+    width: 450px; 
+    
+}
+#select{
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 0 auto;
+    cursor: pointer;
+    background-color: #ffde00;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#select > option {
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width: 767px){
+    #myContainer {
+        grid-template-columns: auto;
+    }
+    #btns{
+        display: none;
+    }
+    #select{
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 768px){
+    #myContainer {
+        grid-template-columns: auto auto;
+    }
+    #btns{
+        display: flex;
+    }
+    #select{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    #myContainer {
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+
+    
+@media screen and (max-width: 767px){
+    #myContainer {
+        grid-template-columns: auto;
+    }
+    #btns{
+        display: none;
+    }
+    #select{
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 768px){
+    #myContainer {
+        grid-template-columns: auto auto;
+    }
+    #btns{
+        display: flex;
+    }
+    #select{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    #myContainer {
+        grid-template-columns: auto auto auto auto;
+    }
+}
+

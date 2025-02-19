@@ -1,0 +1,49 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+    height: 300px;
+    background-color: yellow;
+  }
+  
+  .preto {
+    background-color: black;
+  }
+  
+  .branco {
+    background-color: white;
+  }
+  
+  /* Até 1024px de largura */
+  @media (max-width: 1024px) {
+    .grid-container {
+      grid-template-areas:
+        "preto preto . ."
+        "preto preto . ."
+        ". branco branco branco";
+    }
+    .preto {
+      grid-area: preto;
+    }
+    .branco {
+      grid-area: branco;
+    }
+  }
+  
+  /* A partir de 1024px de largura */
+  @media (min-width: 1024px) {
+    .grid-container {
+      grid-template-areas:
+        "preto preto preto preto"
+        ". . . ."
+        "branco branco branco branco";
+    }
+    .preto {
+      grid-area: preto;
+    }
+    .branco {
+      grid-area: branco;
+    }
+  }
