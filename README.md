@@ -13,6 +13,10 @@ Este repositório está dividido em várias pastas e arquivos organizados por di
 - **Projetos**: Materiais que envolvem projetos de maior escala, com documentação detalhada.
 
 ---
+## 🧑‍💻 Tecnologias e Ferramentas Utilizadas
 
+- **Linguagens de Programação**: Python, sql, Java, javascript, css, html
+- **Ferramentas de Desenvolvimento**: VSCode, Git, GitHub
 
+**Nota**: Este repositório é mantido com fins educacionais. Não garanto que todo o conteúdo seja 100% correto ou livre de erros. Caso note alguma falha ou melhoria, fique à vontade para contribuir!
 
